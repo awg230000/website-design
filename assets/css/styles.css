@@ -1,5 +1,51 @@
 /* styles.css */
-
 * {
-	font-family: Arial;
+	background-color: #fff200; 
+	font-family: Arial, sans-serif;
+}
+.backgroundImage {
+  background-image: url(../img/plane.png);
+  width: 400px;
+  height: 400px;
+  margin: 64px auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.backgroundImage:hover {
+	background-image: url(../img/parachute.png);
+	cursor: help;
+}
+.text {
+  width: 50%;
+  margin: 96px auto;
+}
+h1 {
+  color: black;
+  font-size: 38px;
+  text-align: center;
+}
+.text * {
+  display: inline-block;
+  width: 48%;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+h2 {
+  color: black;
+  font-size: 40px;
+  text-align: left;
+}
+h3 {
+  font-size: 16px;
+  text-align: right;
+}
+h3 a:link,
+h3 a:visited {
+  color: rgb(255, 0, 0);
+  text-decoration: underline;
+}
+h3 a:hover {
+  color: white;
 }
